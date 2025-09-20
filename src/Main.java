@@ -1,6 +1,13 @@
 import java.util.Scanner;
-
+/**
+ * Головний клас програми для роботи з числами Фібоначчі.
+ * Зчитує дані користувача, створює масив чисел та виконує перевірки.
+ */
 public class Main {
+    /**
+     * Точка входу в програму.
+     * @param args аргументи командного рядка (можна передати N — кількість чисел Фібоначчі)
+     */
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         int N;
